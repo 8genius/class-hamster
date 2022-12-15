@@ -12,7 +12,6 @@ function start(client) {
   client.onMessage((message) => {
     if (message.body === ".tt" || ".timetable") {
       client
-        .sendText(message.from, "Welcome Venom 🕷")
         .sendImage(
           message.from,
           "./assets/timetable.png",
