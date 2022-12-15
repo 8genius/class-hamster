@@ -1,5 +1,5 @@
 node_modules
 .nova
 .vscode
-DS_STORE
+.DS_STORE
 tokens
