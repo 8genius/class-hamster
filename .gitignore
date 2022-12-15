@@ -1,1 +1,4 @@
 node_modules
+.nova
+.vscode
+DS_STORE
