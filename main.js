@@ -14,9 +14,9 @@ function start(client) {
       client
         .sendImage(
           message.from,
-          "./assets/timetable.png",
+          "./assets/timetable.jpg",
           "undefined",
-          "Here's the full timetable!"
+          "Nih, jadwal untuk minggu ini!"
         )
         .then((result) => {
           console.log("Result: ", result); //return object success
